@@ -1,0 +1,73 @@
+/* stylelint-disable at-rule-no-unknown */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* stylelint-enable at-rule-no-unknown */
+
+@layer base {
+  :root {
+    --background: 247 19% 6%;
+    --foreground: 0 0% 98%;
+    --card: 247 19% 8%;
+    --card-foreground: 0 0% 98%;
+    --popover: 247 19% 6%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 258 89% 60%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 212 94% 68%;
+    --secondary-foreground: 247 19% 6%;
+    --muted: 247 19% 15%;
+    --muted-foreground: 212 10% 70%;
+    --accent: 212 94% 68%;
+    --accent-foreground: 247 19% 6%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 247 19% 15%;
+    --input: 247 19% 15%;
+    --ring: 258 89% 60%;
+    --radius: 0.75rem;
+    
+    --font-sans: 'Geist', 'Geist Fallback', system-ui, sans-serif;
+    --font-mono: 'Geist', 'Geist Fallback', system-ui, sans-serif;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body selection:bg-primary/30;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline font-bold;
+  }
+}
+
+.glass {
+  @apply bg-background/60 backdrop-blur-md border border-white/10;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-accent to-primary bg-[length:200%_auto] animate-gradient;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient {
+  animation: gradient 8s ease infinite;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-background;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-muted rounded-full hover:bg-muted/80;
+}

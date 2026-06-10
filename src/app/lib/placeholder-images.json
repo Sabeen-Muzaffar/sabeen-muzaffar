@@ -1,0 +1,35 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "profile-headshot",
+      "description": "Professional headshot of the developer",
+      "imageUrl": "https://picsum.photos/seed/profile/600/600",
+      "imageHint": "professional developer"
+    },
+    {
+      "id": "project-nexus",
+      "description": "Project Nexus dashboard screenshot",
+      "imageUrl": "https://picsum.photos/seed/nexus/800/450",
+      "imageHint": "tech dashboard"
+    },
+    {
+      "id": "project-crypto",
+      "description": "Crypto Tracker visualization",
+      "imageUrl": "https://picsum.photos/seed/crypto/800/450",
+      "imageHint": "data visualization"
+    },
+    {
+      "id": "project-ai",
+      "description": "AI-powered tool interface",
+      "imageUrl": "https://picsum.photos/seed/aitool/800/450",
+      "imageHint": "artificial intelligence"
+    },
+    {
+      "id": "project-cloud",
+      "description": "Cloud monitoring dashboard",
+      "imageUrl": "https://picsum.photos/seed/cloudinfra/800/450",
+      "imageHint": "cloud dashboard"
+    }
+  ]
+}
