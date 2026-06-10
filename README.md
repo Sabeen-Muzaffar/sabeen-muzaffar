@@ -1,5 +1,5 @@
-# Firebase Studio
+# Sabeen Muzaffar
 
-This is a NextJS starter in Firebase Studio.
+This is my portfolio website
 
-To get started, take a look at src/app/page.tsx.
+https://sabeen-muzaffar.vercel.app/
