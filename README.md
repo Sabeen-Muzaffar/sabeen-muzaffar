@@ -67,7 +67,7 @@ GitHub, Firebase, REST APIs
 ## 📫 Contact Me
 
 * 📧 Email: [sabeenmir848@gmail.com](mailto:sabeenmir848@gmail.com)
-* 📸 Instagram: @sabeen_2769
+* 📸 Instagram: @sabeen.meer
 * 💼 LinkedIn: [Sabeen Muzaffar Meer](https://www.linkedin.com/in/sabeen-muzaffar-meer-a35928337)
 * 🌐 Portfolio: [https://sabeen-muzaffar.vercel.app/](https://sabeen-muzaffar.vercel.app/)
 
