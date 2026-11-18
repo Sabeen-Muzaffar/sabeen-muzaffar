@@ -42,7 +42,7 @@ export function Hero() {
             <a href="https://www.linkedin.com/in/sabeen-muzaffar-meer-a35928337/" target="_blank" rel="noopener noreferrer" className="p-3 glass rounded-xl hover:text-primary hover:scale-110 transition-all">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href="https://www.instagram.com/sabeen_2769/" target="_blank" rel="noopener noreferrer" className="p-3 glass rounded-xl hover:text-primary hover:scale-110 transition-all">
+            <a href="https://www.instagram.com/life_lately.com_/" target="_blank" rel="noopener noreferrer" className="p-3 glass rounded-xl hover:text-primary hover:scale-110 transition-all">
               <Instagram className="w-6 h-6" />
             </a>
             <a href="mailto:sabeenmir48@gmail.com" className="p-3 glass rounded-xl hover:text-primary hover:scale-110 transition-all">
